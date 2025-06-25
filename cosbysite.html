@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosby Towing | Professional Towing Services in Pell City, AL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://storage.googleapis.com/cosby_trucking_webpage_media/A%20parking%20lot%20with%2010%20tractor%20trailers%20ready%20to%20be%20driven%20away_20250424_201050_0000.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .truck-icon {
+            color: #FF6B00;
+        }
+        
+        .btn-primary {
+            background-color: #FF6B00;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: #e05e00;
+            transform: translateY(-2px);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="truck-icon fas fa-truck-moving text-3xl mr-2"></i>
+                <h1 class="text-2xl font-bold text-gray-800">COSBY TOWING</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-800 hover:text-orange-500 font-medium">Home</a>
+                <a href="#services" class="text-gray-800 hover:text-orange-500 font-medium">Services</a>
+                <a href="#about" class="text-gray-800 hover:text-orange-500 font-medium">About</a>
+                <a href="#contact" class="text-gray-800 hover:text-orange-500 font-medium">Contact</a>
+            </nav>
+            
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-800 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
+            <a href="#home" class="block py-2 text-gray-800 hover:text-orange-500">Home</a>
+            <a href="#services" class="block py-2 text-gray-800 hover:text-orange-500">Services</a>
+            <a href="#about" class="block py-2 text-gray-800 hover:text-orange-500">About</a>
+            <a href="#contact" class="block py-2 text-gray-800 hover:text-orange-500">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero min-h-screen flex items-center text-white">
+        <div class="container mx-auto px-4 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Professional Towing Services in Pell City, AL</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto md:mx-0">Reliable, efficient, and affordable transportation solutions for your business needs.</p>
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
+                <a href="#contact" class="btn-primary px-8 py-3 rounded-full text-white font-bold inline-block text-center">Get a Quote</a>
+                <a href="#services" class="border-2 border-white px-8 py-3 rounded-full text-white font-bold inline-block text-center hover:bg-white hover:text-gray-800 transition">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Towing Services</h2>
+                <div class="w-20 h-1 bg-orange-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Freight Transportation</h3>
+                    <p class="text-gray-600">Efficient and reliable freight transportation services across Alabama and neighboring states.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Warehouse Distribution</h3>
+                    <p class="text-gray-600">Comprehensive warehouse and distribution solutions to streamline your supply chain.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">LTL Shipping</h3>
+                    <p class="text-gray-600">Cost-effective Less Than Truckload (LTL) shipping options for smaller shipments.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-truck-pickup"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Local Deliveries</h3>
+                    <p class="text-gray-600">Prompt and professional local delivery services throughout Pell City and surrounding areas.</p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Expedited Shipping</h3>
+                    <p class="text-gray-600">Time-sensitive shipping solutions when you need your goods delivered fast.</p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Reliable Expertise</h3>
+                    <p class="text-gray-600">Employees at Cosby Towing have extensible and dependable knowledge on towing procedures and capabilities .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <img src="https://storage.googleapis.com/cosby_trucking_webpage_media/1746038532525~2.jpg" alt="Cosby Trucking Team" class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About Cosby Towing</h2>
+                    <p class="text-gray-600 mb-4">Founded in Pell City, Alabama, Cosby Trucking has been providing reliable transportation services to businesses throughout the region for over 15 years.</p>
+                    <p class="text-gray-600 mb-6">Our team of professional drivers and logistics experts are committed to delivering your goods safely and on time, every time. We pride ourselves on our excellent customer service and attention to detail.</p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="truck-icon fas fa-check-circle text-xl mr-2"></i>
+                            <span class="text-gray-800">Licensed & Insured</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="truck-icon fas fa-check-circle text-xl mr-2"></i>
+                            <span class="text-gray-800">24/7 Availability</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="truck-icon fas fa-check-circle text-xl mr-2"></i>
+                            <span class="text-gray-800">Modern Fleet</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="truck-icon fas fa-check-circle text-xl mr-2"></i>
+                            <span class="text-gray-800">GPS Tracking</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn-primary px-8 py-3 rounded-full text-white font-bold inline-block">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">15+</div>
+                    <div class="text-gray-300">Years Experience</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">50+</div>
+                    <div class="text-gray-300">Satisfied Clients</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">100%</div>
+                    <div class="text-gray-300">Safety Record</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-4xl font-bold mb-2">24/7</div>
+                    <div class="text-gray-300">Customer Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
+                <div class="w-20 h-1 bg-orange-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Cosby Towing has been our go-to transportation partner for years. Their reliability and professionalism are unmatched in Pell City."</p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-gray-800">John Smith</div>
+                        <div class="text-gray-500 text-sm ml-auto">ABC Manufacturing</div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Their team always goes above and beyond to ensure our shipments arrive on time and in perfect condition. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-gray-800">Sarah Johnson</div>
+                        <div class="text-gray-500 text-sm ml-auto">Johnson Distributors</div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"We've worked with many trucking companies, but Cosby Towing stands out for their excellent communication and fair pricing."</p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-gray-800">Mike Williams</div>
+                        <div class="text-gray-500 text-sm ml-auto">Williams Logistics</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Contact Us</h2>
+                    <p class="text-gray-600 mb-8">Ready to discuss your transportation needs? Fill out the form or contact us directly. Our team is standing by to assist you.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="text-orange-500 text-xl mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Address</h4>
+                                <p class="text-gray-600">123 Trucking Lane, Pell City, AL 35125</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-orange-500 text-xl mr-4 mt-1">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Phone</h4>
+                                <p class="text-gray-600">(205) 473-4822</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-orange-500 text-xl mr-4 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Email</h4>
+                                <p class="text-gray-600">dhcosby007@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-orange-500 text-xl mr-4 mt-1">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Hours</h4>
+                                <p class="text-gray-600">Monday - Friday: 8AM - 5PM<br>24/7 Emergency Dispatch Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold text-gray-800 mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-600 hover:text-orange-500 text-xl"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-gray-600 hover:text-orange-500 text-xl"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-gray-600 hover:text-orange-500 text-xl"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="text-gray-600 hover:text-orange-500 text-xl"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <form class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="service" class="block text-gray-700 font-medium mb-2">Service Needed</label>
+                            <select id="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                                <option value="">Select a service</option>
+                                <option value="freight">Freight Transportation</option>
+                                <option value="warehouse">Warehouse Distribution</option>
+                                <option value="ltl">LTL Shipping</option>
+                                <option value="local">Local Deliveries</option>
+                                <option value="expedited">Expedited Shipping</option>
+                                <option value="refrigerated">Refrigerated Transport</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-full py-3 rounded-lg text-white font-bold">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="h-96 w-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.123456789012!2d-86.287654!3d33.586201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8889a123456789ab%3A0x1234567890abcdef!2sPell%20City%2C%20AL!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="truck-icon fas fa-truck-moving text-2xl mr-2"></i>
+                        <h3 class="text-xl font-bold">COSBY TRUCKING</h3>
+                    </div>
+                    <p class="text-gray-400">Providing reliable transportation services to Pell City and surrounding areas since 2008.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Freight Transportation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Warehouse Distribution</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">LTL Shipping</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Local Deliveries</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to our newsletter for updates and special offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-800 w-full">
+                        <button type="submit" class="btn-primary px-4 rounded-r-lg"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Cosby Towing. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // Add shadow to header on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-lg');
+            } else {
+                header.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
